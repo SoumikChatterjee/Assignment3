@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #182049;
+    font-family:'Gabarito';
+    background-color: #edf0eb;
+}
+
+body{
+    background-color: #edf0eb;
+    height:100%;
+    padding: 1vw 9vw;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+#menuicon{
+    display:none;
+}
+.left{
+    font-size: 2.5vmax;
+    font-weight: 800;
+}
+.left p{
+    color: #161e49;
+}
+.right{
+    display: flex;
+    gap: 1rem;
+}
+.right button{
+    padding: 1.2vmax 3vmax ;
+    border-radius: 10px;
+    border: 1.6px solid #182049;
+    outline: none;
+    
+    font-weight: bold;
+    
+}
+#signup
+{
+    background-color: #182049;
+    color: white;
+    border: none;
+}
+.sec1{
+    /* background-color: red; */
+    position: relative;
+    margin-top: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div1{
+    margin-top: 15vh;
+}
+.div1 h1{
+    font-size: 4.5vmax;
+}
+.search-box{
+    padding:1.3vmax 1vmax;
+    width: 30vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.search-box input{
+    width: 90%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.search-box i{
+    font-size: 1vmax;
+}
+.search{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 4vh;
+    margin-left: 1vw;
+}
+.search button{
+    padding: 1.3vmax 2vmax ;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color:#182049 ;
+    color: white;
+    font-weight: bold;
+}
+
+#icon1{
+    position: absolute;
+    top:2vmax;
+    left: 6vmax;
+    width: 12vmax;
+}
+#icon2
+{
+    position: absolute;
+    right: 6.5vmax;
+    bottom:0vmax;
+    width: 12.5vmax;
+}
+.sec2{
+    margin-top: 20vh;
+    height: fit-content;
+}
+.sec2-child1{
+    font-size: 1.5vmax;
+    font-weight: bolder;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #182049;
+    border-bottom: 2px solid #182049;
+    padding: 1.5vmax 0vmax;
+}
+.sec2-child2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height:70vh;
+}
+.steps{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 4vw;
+    padding-right: 3vw;
+    padding-bottom: 7vh;
+    padding-top: 3vh;
+}
+.step{
+    font-size: 1.6vmax;
+    font-weight: bolder;
+}
+.steps img{
+    width: 18vmax;
+}
+#step2{
+    width: 13vmax;
+}
+#how-mid{
+    border-left: 2px solid;
+    border-right: 2px solid;
+}
+.sec3{
+    /* background-color: rebeccapurple; */
+}
+.sec3-child2{
+    /* border: 2px solid blue; */
+}
+.sec3-chlid2-child{
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.sec3-chlid2-child img{
+    width: 26vmax;
+}
+.sec3-right-texts{
+padding: 1vmax 3vmax;
+width: 22vw;
+}
+.sec3-right-texts button{
+    padding: .5vmax 1.5vmax;
+    border-radius: 10px;
+    border: 1px solid #182049;
+    outline: none;
+    font-weight: bold;
+}
+.sec3-right-texts-heading{
+    font-size: 1.6vmax;
+    font-weight: bolder;
+}
+#sec3-mid{
+    border-top: 2px solid #182049 ;
+    border-bottom: 2px solid #182049;
+    padding: 2vh 0;
+}
+.sec4
+{
+    margin-top: 2vh;
+    border-bottom: 2px solid;
+    padding-bottom: 7vh;
+}
+.sec4-child2{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3vmax;
+}
+.sec4-child2 img{
+    width: 35vmax;
+}
+.sec4-text
+{
+    width: 35vw;
+    padding-top: 3vh
+}
+.sec4-text button
+{
+    padding: 1vmax 2.2vmax;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    background-color: #182049;
+}
+.sec5{
+    margin-top: 20vh;
+    background-color: #c1cebd;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vmax 7.2vw;
+    position: absolute;
+    left: 2vw;
+    right: 0;
+}
+.sec5-child1
+{
+    background-color: #c1cebd;
+}
+.sec5-child1 p{
+    font-size: 2vmax;
+    font-weight: bold;
+    background-color: #c1cebd;
+}
+.sec5-child2{
+    display: flex;
+    gap: 5vw;
+    background-color: #c1cebd;
+}
+.sec5-child2 p,b{
+    background-color: #c1cebd;
+}
+
+@media (max-width:750px){
+    nav{
+        background-color: #182049;
+        padding: 0 2vw;
+    }
+    #menuicon{
+        font-size: medium;
+        display: inline;
+    }
+    .left p{
+        background-color: #182049 ;
+        color: white;
+    }
+    nav .right{
+        display: none;
+    }
+    #icon1{
+        position: absolute;
+        left: 29vw;
+        width: 20vw;
+    }
+    #icon2{
+
+        display: none;    
+    }
+    .div1{
+        margin-top: 35vh;
+    }
+    .sec2-child2{
+        grid-template-columns: repeat(1, 1fr);
+        height:fit-content
+    }
+    .steps{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #how-mid{
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid #182049;
+        border-bottom: 1px solid #182049;
+    } 
+    .sec3-chlid2-child{
+        flex-direction: column;
+    }
+    .sec3-right-texts{
+        padding: 1vmax 2vmax;
+        width: 32vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec4-child2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .sec5{
+        flex-direction: column;
+        gap: 3vh;
+    }
+    .sec5-child2{
+        flex-direction: column;
+    }
+}
+@media(max-width:450px){
+    body{
+        padding: 1vw 3vw;
+    }
+    #icon1{
+        position: absolute;
+        left: 29vw;
+        width: 30vw;
+    }
+    .div1{
+        height: 20vw;
+    }
+    .search{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-box{
+        width: 70vw;
+    }
+    .sec3-chlid2-child
+    {
+        justify-content: center;
+        align-items: center;
+    }
+    .sec3-right-texts{
+        width: 53vw;
+        padding: 2.5vw 0;
+    }
+    .sec4-text{
+        width: 55vw;
+        justify-content: center;
+        text-align: center;
+    }
+}
